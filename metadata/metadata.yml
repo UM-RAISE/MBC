@@ -1,0 +1,33 @@
+metadata_version: 1
+name: IJDS-2022-0008
+description: Parameter calibration aims to estimate unobservable parameters employed
+  in a computer model by utilizing physical process responses and computer model outputs.
+  In the literature, existing studies calibrate all parameters simultaneously using
+  an entire dataset. However, in certain applications, some parameters are associated
+  with only a subset of data. For example, in the building energy simulation, cooling
+  (heating) season parameters should be calibrated using data collected during the
+  cooling (heating) season only. This study provides a new multi-block calibration
+  approach that considers such  heterogeneity. Unlike existing studies that build
+  emulators for the computer model response, such as the widely used Bayesian calibration
+  approach, we consider multiple loss functions to be minimized, each for a block
+  of parameters that use the corresponding dataset, and estimate the parameters using
+  a nonlinear optimization technique. We present the convergence properties under
+  certain conditions and quantify the parameter estimation uncertainties. The superiority
+  of our approach is demonstrated through numerical studies and a real-world building
+  energy simulation case study.
+authors:
+- name: Cheoljoon Jeong
+  affiliations:
+  - name: University of Michigan
+- name: Ziang Xu
+  affiliations:
+  - name: University of Michigan
+- name: Albert S. Berahas
+  affiliations:
+  - name: University of Michigan
+- name: Eunshin Byon
+  affiliations:
+  - name: University of Michigan
+- name: Kristen Cetin
+  affiliations:
+  - name: Michigan State University
